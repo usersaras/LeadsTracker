@@ -1,0 +1,84 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 15px 10px;
+  min-width: 350px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  background: grey;
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+}
+
+input:focus {
+  border: 1px green solid;
+}
+
+#input-btn, #tab-btn {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid green;
+}
+
+#delete-btn {
+  padding: 10px;
+  color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 10px;
+}
+
+li:before {
+  content: "↝";
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
